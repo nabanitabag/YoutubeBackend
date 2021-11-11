@@ -1,0 +1,25 @@
+{
+  "name": "youtubebackend",
+  "version": "1.0.0",
+  "description": "Fampay assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabanitabag/YoutubeBackend.git"
+  },
+  "keywords": [
+    "Youtube"
+  ],
+  "author": "Nabanita Bag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabanitabag/YoutubeBackend/issues"
+  },
+  "homepage": "https://github.com/nabanitabag/YoutubeBackend#readme",
+  "dependencies": {
+    "@googleapis/docs": "^0.2.0"
+  }
+}

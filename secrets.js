@@ -1,4 +1,4 @@
-require("dotenv-defaults").config();
+require("dotenv").config();
 
 const envs = new Set([
   "MONGODB_URI",
@@ -14,7 +14,7 @@ for (const e of envs) {
   const val = process.env[e];
 
   if (required.has(e) && !val) {
-    console.log(`Missing required environtment variable: ${e}`);
+    console.log(`Missing variable: ${e}`);
     process.exit(1);
   }
 

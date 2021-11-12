@@ -1,0 +1,20 @@
+error: Error fetching videos {
+    "service":"user-service",
+    "error":
+    {"message":"request to https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=date&q=cricket&relevanceLanguage=en&publishedAfter=2021-11-11T11%3A54%3A00.639Z&key=AIzaSyCbX_pu3c7Tia5t62zvceM0UZxVc70igBo failed, reason: self signed certificate in certificate chain",
+        "type":"system",
+        "errno":"SELF_SIGNED_CERT_IN_CHAIN",
+        "code":"SELF_SIGNED_CERT_IN_CHAIN",
+        "config":{"url":"https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=date&q=cricket&relevanceLanguage=en&publishedAfter=2021-11-11T11%3A54%3A00.639Z&key=AIzaSyCbX_pu3c7Tia5t62zvceM0UZxVc70igBo",
+            "method":"GET",
+            "userAgentDirectives":[{"product":"google-api-nodejs-client","version":"5.0.2","comment":"gzip"}],
+            "headers":{"x-goog-api-client":"gdcl/5.0.2 gl-node/14.15.5 auth/7.1.2","Accept-Encoding":"gzip",
+                "User-Agent":"google-api-nodejs-client/5.0.2 (gzip)","Accept":"application/json"},
+                "params":{"part":["snippet"],"maxResults":50,"order":"date","q":"cricket",
+                    "relevanceLanguage":"en","publishedAfter":"2021-11-11T11:54:00.639Z",
+                    "key":"AIzaSyCbX_pu3c7Tia5t62zvceM0UZxVc70igBo"},
+                    "retry":true,
+                    "responseType":"json",
+        "retryConfig":{"currentRetryAttempt":2,"retry":3,
+            "httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],
+            "noResponseRetries":2,"statusCodesToRetry":[[100,199],[429,429],[500,599]]}}}}

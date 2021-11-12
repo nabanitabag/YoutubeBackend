@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
  const app = require('./app');
  const debug = require('debug')('fampay-assignment:server');
  const http = require('http');

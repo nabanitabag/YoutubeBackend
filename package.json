@@ -23,6 +23,7 @@
   "dependencies": {
     "@googleapis/docs": "^0.2.0",
     "cookie-parser": "^1.4.5",
+    "dayjs": "^1.10.7",
     "dotenv": "^10.0.0",
     "mongoose": "^6.0.12",
     "mongoose-fuzzy-searching": "^2.0.2",

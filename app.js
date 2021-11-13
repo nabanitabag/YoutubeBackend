@@ -1,8 +1,7 @@
 const express = require("express");
 const path = require("path");
-const cookieParser = require("cookie-parser");
 const mongoose = require("mongoose");
-
+const secrets = require("./secrets");
 const app = express();
 
 mongoose
@@ -22,7 +21,6 @@ mongoose
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
 
 // Error handler
 app.use((err, req, res) => {

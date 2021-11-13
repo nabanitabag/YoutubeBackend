@@ -19,20 +19,6 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 
 2. Add the secret keys like YOUTUBE DATA API key to .env
 
-```
-NODE_ENV = 
-
-# Server Properties
-PORT =
-
-# MONGODB
-MONGODB_URI = 
-
-# YOUTUBE API
-YOUTUBE_API_KEY =
-YOUTUBE_SEARCH_QUERY =
-```
-
 3. Install dependencies
 
 `npm install`

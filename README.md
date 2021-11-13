@@ -17,7 +17,19 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 
 `git clone https://github.com/nabanitabag/YoutubeBackend.git`
 
-2. Add the secret keys like YOUTUBE DATA API key to .env
+2. Add the secret keys like YOUTUBE DATA API key to .env folder like this:
+
+NODE_ENV = development
+
+# Server Properties
+PORT = 3000
+
+# MONGODB
+MONGODB_URI = mongodb://localhost:27017/testdb
+
+# YOUTUBE API
+YOUTUBE_API_KEY = Axxxxxxxxxxxxxxxxxxxxxxxxxxxx
+YOUTUBE_SEARCH_QUERY = bank
 
 3. Install dependencies
 

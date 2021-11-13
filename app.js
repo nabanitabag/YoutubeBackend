@@ -12,7 +12,6 @@ const app = express();
 
 mongoose
   .connect(secrets.MONGODB_URI, {
-    useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

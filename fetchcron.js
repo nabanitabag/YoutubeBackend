@@ -3,6 +3,7 @@ const cron = require("node-cron");
 const VideoModel = require("./schema");
 const { fetchVideos } = require("./fetchClient");
 const secrets = require("./secrets");
+const logger = require("./logger");
 
 module.exports = () => {
   cron.schedule("* * * * *", async () => {

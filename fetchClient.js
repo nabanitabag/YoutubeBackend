@@ -1,5 +1,6 @@
 const dayjs = require("dayjs");
 const { google } = require("googleapis");
+const logger = require("./logger");
 
 const fetchVideos = async (apiKey, q) => {
   try {
